@@ -1,0 +1,75 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Music player container */
+.music-player {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color:rgb(27, 23, 23);
+    color: red;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Album cover */
+.album-cover {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px 0;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Song details */
+.song-details {
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+
+/* Audio player */
+.audio-player {
+    width: 100%;
+    margin: 20px 0;
+}
+
+/* Control buttons */
+.control-button {
+    background-color: #1db954;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Volume slider */
+.volume-slider {
+    width: 80%;
+    margin-top: 10px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .music-player {
+        max-width: 100%;
+        border-radius: 0;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 2px;
+    background-color: black;
+    color: white;
+  }
